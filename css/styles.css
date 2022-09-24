@@ -32,6 +32,12 @@ body {
 .logo span {
     color: var(--accent-color);
 }
+.contacts a {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
 .site-nav a {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -39,6 +45,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+.site-nav .current {
+    color: var(--accent-color);
 }
 .contacts a {
     color: var(--secondary-text-color);
@@ -123,11 +132,11 @@ body {
     color: var(--accent-color);
 }
 .address a {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--hero-title-color)
 }
 .footer-content a:hover,
 .footer-content a:focus {
-color: var(--hero-title-color);
+color: var(--accent-color);
 }
 .address .map {
     font-size: 14px;
@@ -138,6 +147,9 @@ color: var(--hero-title-color);
     font-size: 14px;
     line-height: 1.7;
     font-weight: 400;
+}
+address {
+    font-style: normal;
 }
 /* Портфоліо */
 .section h2 {
@@ -151,5 +163,5 @@ color: var(--hero-title-color);
     letter-spacing: 0.03em;
 }
 .hero-btn:hover, .hero-btn:focus {
-  background-color: var(--accent-color);
+    color: var(--accent-color);
 }
