@@ -88,6 +88,12 @@ body {
     background-color: var(--accent-color);
     color: var(--hero-title-color);
 }
+.hero-btn.portf:hover,
+.hero-btn.portf:focus {
+    color: var(--hero-title-color);
+    background-color: var(--accent-color);
+}
+
 .section-subtitle {
     font-size: 14px;
     line-height: 1.14;
@@ -131,9 +137,6 @@ body {
 .footer-content span {
     color: var(--accent-color);
 }
-.address a {
-    color: var(--hero-title-color)
-}
 .footer-content a:hover,
 .footer-content a:focus {
 color: var(--accent-color);
@@ -148,6 +151,9 @@ color: var(--accent-color);
     line-height: 1.7;
     font-weight: 400;
 }
+.contact-list .data {
+    color: rgba(255, 255, 255, 0.6);
+}
 address {
     font-style: normal;
 }
@@ -161,7 +167,4 @@ address {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-}
-.hero-btn:hover, .hero-btn:focus {
-    color: var(--accent-color);
 }
